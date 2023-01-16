@@ -3,7 +3,7 @@ const hifen = "%20-%20";
 
 function sendContactMail() {
 
-    const emailTo = "jobs@agilefactor.pt";
+    const emailTo = "comercial@agilefactor.pt";
 
     const name = encodeURIComponent(document.getElementById("Name").value);
     const subject = "CONTACTO" + hifen + name;
