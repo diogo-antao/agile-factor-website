@@ -349,7 +349,6 @@ footer p{
   color: #000;
 }
 
-
-
-  
-  
+select#recruitment-select.form-select {
+  border-radius: 18px;
+}

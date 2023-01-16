@@ -380,7 +380,9 @@
             novalidate
             id="contact"
             method="post"
-            action="formprocess.php"
+            action="javascript:sendContactMail()"
+            enctype="text/plain"
+            accept-charset="utf-8"
           >
             <div class="col-12 mb-3">
               <input
@@ -401,7 +403,8 @@
                 class="form-control"
                 id="email"
                 name="email"
-                placeholder="nome@exemplo.com"
+                placeholder="E-mail"
+                required
               />
               <div class="invalid-feedback">
                 Por favor, insira um e-mail válido
@@ -461,6 +464,8 @@
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/invalid-submission.js"></script>
+    <script src="js/mailing.js"></script>
 
     <script type="text/javascript">
       const hamburger = document.querySelector(".hamburger");
