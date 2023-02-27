@@ -352,3 +352,9 @@ footer p{
 select#recruitment-select.form-select {
   border-radius: 18px;
 }
+
+#info-modal-header {
+  padding-top: 15px;
+  color: white;
+  background: #24588D;
+}
